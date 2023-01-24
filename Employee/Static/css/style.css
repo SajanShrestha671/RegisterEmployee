@@ -1,0 +1,9 @@
+.listEmployee{
+    text-align: left;
+    margin: 6px;
+    text-decoration: none;
+    float: right;
+    color: black;
+    padding: 5px; 
+    display: flex;
+}

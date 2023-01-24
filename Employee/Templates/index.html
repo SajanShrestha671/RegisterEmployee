@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="{% static 'CSS/bootstrap.css' %}">
+        <link rel="stylesheet" href="{%static 'CSS/style.css'%}">
+    </head>
+    <body>
+<div class="container mt-5">
+    <h2 class="text-center alert alert-danger"> Register your employee</h2>
+    <span><a href="{% url 'result' %}"  class="listEmployee"><h4>List of Employee</h4></a></span>
+    {% block content %} {% endblock content %}
+</div>
+        
+        
+        <script src="{% static 'JavaScript/bootstrap.js' %}" ></script>
+        <script src="{% static 'JavaScript/bootstrapBundle.js' %}" ></script>
+        <script src="{% static 'JavaScript/bootstrappopper.js' %}" ></script>
+    </body>
+</html>  
